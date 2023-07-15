@@ -555,18 +555,22 @@ body {
 
 .img_partner_first {
     opacity: 0.550000011920929;
+    height: 55%;
 }
 
 .img_partner_second {
     opacity: 0.44999998807907104;
+    height: 55%;
 }
 
 .img_patner_third {
     opacity: 0.550000011920929;
+    height: 15%;
 }
 
 .img_patner_fourth {
     opacity: 0.3499999940395355;
+    height: 15%;
 }
 
 .unit_partners {
@@ -744,6 +748,30 @@ body {
         height: 55px;
         margin: 45px 15px;
     }
+
+
+    /* PARTNERS */
+    
+    .img_partner_first {
+        opacity: 0.550000011920929;
+        height: 50%;
+    }
+    
+    .img_partner_second {
+        opacity: 0.44999998807907104;
+        height: 40%;
+    }
+    
+    .img_patner_third {
+        opacity: 0.550000011920929;
+        height: 10%;
+    }
+    
+    .img_patner_fourth {
+        opacity: 0.3499999940395355;
+        height: 10%;
+    }
+
 }
 @media screen and (max-width: 890px) {
 
@@ -755,8 +783,8 @@ body {
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr 
                             1fr 1fr 1fr 1fr 1fr 
-                            1fr 0.75fr 0.75fr 0.75fr 0.3fr 
-                            0.4fr 1fr 1fr 1fr 1fr;
+                            1fr 0.75fr 0.75fr 0.75fr 0.5fr 
+                            0.5fr 1fr 1.3fr 1fr 1fr;
     }
 
 
@@ -912,6 +940,38 @@ body {
     .infogr_problems {
         display: none;
     }
+
+
+    /* PARTNERS */
+    
+    .img_partner_first {
+        opacity: 0.550000011920929;
+        height: 45%;
+    }
+    
+    .img_partner_second {
+        opacity: 0.44999998807907104;
+        height: 35%;
+    }
+    
+    .img_patner_third {
+        opacity: 0.550000011920929;
+        height: 15%;
+    }
+    
+    .img_patner_fourth {
+        opacity: 0.3499999940395355;
+        height: 15%;
+    }
+
+    .menu_partners_text {
+        margin: 50px 0px 0px 30px;
+    }
+    
+    .menu_partners_h1 {
+        margin: 0px 0px 0px 30px;
+    }
+    
 }
 @media screen and (max-width: 500px) {
 
@@ -941,4 +1001,36 @@ body {
     .img_logo {
         margin: 30px 0px 0px 0px;
     } */
+
+
+    /* PARTNERS */
+    
+    .img_partner_first {
+        opacity: 0.550000011920929;
+        height: 40%;
+    }
+    
+    .img_partner_second {
+        opacity: 0.44999998807907104;
+        height: 30%;
+    }
+    
+    .img_patner_third {
+        opacity: 0.550000011920929;
+        height: 10%;
+    }
+    
+    .img_patner_fourth {
+        opacity: 0.3499999940395355;
+        height: 10%;
+    }
+
+    .menu_partners_text {
+        margin: 50px 0px 0px 30px;
+    }
+    
+    .menu_partners_h1 {
+        margin: 0px 0px 0px 30px;
+    }
+    
 }
