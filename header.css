@@ -1,0 +1,294 @@
+/* HEADER ALL */
+
+.right_header {
+    height: 70px;
+    background-color: white;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.left_header  {
+    height: 87px;
+    background-color: white;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+
+.lang  {
+    display: flex;
+    text-decoration: none;
+    margin: 22px 50px 0px 0px;
+}
+.img_blue {
+    margin: 10px;
+    height: 5px;
+    width: 10px;
+}
+.p_blue_lang {
+    margin: 0px;
+    color: #0536FC;
+    font-size: 16px;
+    font-family: 'Basis Grotesque Pro';
+    line-height: 24px;
+    letter-spacing: -0.48px;
+    text-transform: uppercase;
+}
+.lang_h {
+    display: none;
+}
+
+
+.menu_schools {
+    color: #000;
+    font-size: 16px;
+    font-family: 'Basis Grotesque Pro';
+    line-height: 24px;
+    letter-spacing: -0.48px;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: flex;
+    margin: 23px 20px 0px 0px;
+}
+.menu_partners {
+    color: #000;
+    font-size: 16px;
+    font-family: 'Basis Grotesque Pro';
+    line-height: 24px;
+    letter-spacing: -0.48px;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: flex;
+    margin: 23px 20px 0px 0px;
+}
+.menu_about_us {
+    color: #000;
+    font-size: 16px;
+    font-family: 'Basis Grotesque Pro';
+    line-height: 24px;
+    letter-spacing: -0.48px;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: flex;
+    margin: 23px 20px 0px 0px;
+}
+.menu_stories {
+    color: #000;
+    font-size: 16px;
+    font-family: 'Basis Grotesque Pro';
+    line-height: 24px;
+    letter-spacing: -0.48px;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: flex;
+    margin: 23px 20px 0px 0px;
+}
+.menu_faq {
+    color: #000;
+    font-size: 16px;
+    font-family: 'Basis Grotesque Pro';
+    line-height: 24px;
+    letter-spacing: -0.48px;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: flex;
+    margin: 23px 20px 0px 0px;
+}
+.img_menu {
+    margin: 10px;
+    height: 5px;
+    width: 10px;
+}
+.p_menu {
+    margin: 0;
+    color: #000;
+    font-size: 16px;
+    font-family: 'Basis Grotesque Pro';
+    line-height: 24px;
+    letter-spacing: -0.48px;
+    text-transform: uppercase;
+}
+
+
+.text_logo {
+    color: #000;
+    font-size: 16px;
+    font-family: 'Basis Grotesque Pro';
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: -0.48px;
+    margin: 24px 0px 0px 10px;
+    text-transform: none;
+    text-decoration: none;
+}
+.img_logo {
+    margin: 30px 0px 0px 50px;
+    width: 39.462px;
+    height: 57px;
+    flex-shrink: 0;
+}
+.logo_and_text {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    text-decoration: none;
+}
+
+/* MEDIA */
+
+@media screen and (max-width: 1024px) {
+
+
+    /* HEADER */
+
+    .menu_schools {
+        color: #000;
+        font-size: 16px;
+        font-family: 'Basis Grotesque Pro';
+        line-height: 24px;
+        letter-spacing: -0.48px;
+        text-transform: uppercase;
+        text-decoration: none;
+        display: flex;
+        margin: 23px 20px 0px 0px;
+    }
+    .menu_partners {
+        color: #000;
+        font-size: 16px;
+        font-family: 'Basis Grotesque Pro';
+        line-height: 24px;
+        letter-spacing: -0.48px;
+        text-transform: uppercase;
+        text-decoration: none;
+        display: flex;
+        margin: 23px 20px 0px 0px;
+        display: none;
+    }
+    .menu_about_us {
+        color: #000;
+        font-size: 16px;
+        font-family: 'Basis Grotesque Pro';
+        line-height: 24px;
+        letter-spacing: -0.48px;
+        text-transform: uppercase;
+        text-decoration: none;
+        display: flex;
+        margin: 23px 20px 0px 0px;
+    }
+    .menu_stories {
+        color: #000;
+        font-size: 16px;
+        font-family: 'Basis Grotesque Pro';
+        line-height: 24px;
+        letter-spacing: -0.48px;
+        text-transform: uppercase;
+        text-decoration: none;
+        display: flex;
+        margin: 23px 20px 0px 0px;
+        display: none;
+    }
+    .menu_faq {
+        color: #000;
+        font-size: 16px;
+        font-family: 'Basis Grotesque Pro';
+        line-height: 24px;
+        letter-spacing: -0.48px;
+        text-transform: uppercase;
+        text-decoration: none;
+        display: flex;
+        margin: 23px 20px 0px 0px;
+    }
+}
+@media screen and (max-width: 890px) {
+
+
+    /* HEADER */
+
+    .menu_schools {
+        color: #000;
+        font-size: 16px;
+        font-family: 'Basis Grotesque Pro';
+        line-height: 24px;
+        letter-spacing: -0.48px;
+        text-transform: uppercase;
+        text-decoration: none;
+        display: flex;
+        margin: 23px 20px 0px 0px;
+        display: none;
+    }
+    .menu_partners {
+        color: #000;
+        font-size: 16px;
+        font-family: 'Basis Grotesque Pro';
+        line-height: 24px;
+        letter-spacing: -0.48px;
+        text-transform: uppercase;
+        text-decoration: none;
+        display: flex;
+        margin: 23px 20px 0px 0px;
+        display: none;
+    }
+    .menu_about_us {
+        color: #000;
+        font-size: 16px;
+        font-family: 'Basis Grotesque Pro';
+        line-height: 24px;
+        letter-spacing: -0.48px;
+        text-transform: uppercase;
+        text-decoration: none;
+        display: flex;
+        margin: 23px 20px 0px 0px;
+        display: none;
+    }
+    .menu_stories {
+        color: #000;
+        font-size: 16px;
+        font-family: 'Basis Grotesque Pro';
+        line-height: 24px;
+        letter-spacing: -0.48px;
+        text-transform: uppercase;
+        text-decoration: none;
+        display: flex;
+        margin: 23px 20px 0px 0px;
+        display: none;
+    }
+    .menu_faq {
+        color: #000;
+        font-size: 16px;
+        font-family: 'Basis Grotesque Pro';
+        line-height: 24px;
+        letter-spacing: -0.48px;
+        text-transform: uppercase;
+        text-decoration: none;
+        display: flex;
+        margin: 23px 20px 0px 0px;
+        display: none;
+    }
+    .lang_h {
+        display: flex;
+        text-decoration: none;
+        margin: 22px 10px 0px 0px;
+    }
+}
+@media screen and (max-width: 500px) {
+
+
+    /* HEADER */
+
+    .text_logo {
+        display: none;
+    }
+    .left_header {
+        justify-content: center;
+    }
+    .img_logo {
+        margin: 30px 0px 0px 0px;
+    }
+}

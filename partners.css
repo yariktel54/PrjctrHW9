@@ -1,0 +1,691 @@
+/* main ( GRID SETTINGS ) */
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 90px 1fr 1fr;
+}
+
+
+/* NO MARGIN */
+
+body {
+    margin: 0px;
+}
+
+
+/* FIRST BLOCKS */
+
+.t_program {
+    position: relative; 
+    grid-column: span 2;
+    grid-row: span 1;
+}
+.txt_center_all {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 691px;
+}
+.vector {
+    background-image: url(images/Vector1.png);
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    bottom: 157px;
+    right: 35px;
+}
+.desktop_only {
+    position: relative; 
+    background-color: white;
+    grid-column: span 2;
+    grid-row: span 1;
+}
+.bttn_deactivated { 
+    grid-column: span 2;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    background: #FFF;
+    color: #0536FC;
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.bttn_activated {
+    grid-column: span 2;
+    border: 0px solid rgba(0, 0, 0, 0.15);
+    background: #0536FC;
+    color: #FFF;
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+p {
+    margin: 0px;
+    font-family: 'Basis Grotesque Pro';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.48px;
+    text-transform: uppercase;
+}
+.p_cp {
+    color: #000;
+    font-family: 'Basis Grotesque Pro';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -0.48px;
+    text-transform: uppercase;
+    margin: 70px 15px 0px 15px;
+}
+.p_l {
+    color: #000;
+    font-family: 'Basis Grotesque Pro';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -0.48px;
+    text-transform: uppercase;
+    margin: 0px;
+}
+.bttns_container {
+    grid-column: span 4;
+    display: flex;
+}
+.mobile_only {
+    display: none;
+}
+.t_invest {
+    grid-column: span 2;
+    grid-row: span 3;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+.l_invest {
+    grid-column: span 2;
+    grid-row: span 3;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+.invest_bold_text {
+    color: #000;
+    font-family: 'Basis Grotesque Pro';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -0.48px;
+    text-transform: uppercase;
+    opacity: 0.8500000238418579;
+    margin: 50px 0px 30px 0px;
+    }
+.t_invest_container {
+    margin-top: 150px;
+}
+.form_money {
+    margin-top: 362px;
+}
+
+
+/* MENU ALL ( HOVERS, TRIANGLES) */
+
+.right_menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.left_menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-left: 20px;
+    margin-right: 91px;
+}
+
+
+/* OFTEN CLASSES (FOR FUTURE DEV) */
+
+.just_p {
+    color: #000;
+    font-size: 16px;
+    font-family: 'Basis Grotesque Pro';
+    line-height: 24px;
+    letter-spacing: -0.48px;
+    margin: 0px;
+}
+.h3 {
+    color: #0536FC;
+    font-size: 16px;
+    font-family: 'Basis Grotesque Pro';
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -0.48px;
+    text-transform: uppercase;
+    margin: 15px;
+}
+.p {
+    font-size: 16px;
+    font-family: 'Basis Grotesque Pro';
+    line-height: 24px;
+    letter-spacing: -0.48px;
+    margin: 55px 15px;
+    text-transform: none;
+    text-decoration: none;
+}
+.h1_f {
+    color: #000;
+    font-size: 57px;
+    font-family: 'Basis Grotesque Pro';
+    font-weight: 700;
+    line-height: 59px;
+    letter-spacing: -1.71px;
+    text-transform: uppercase;
+    margin: 15px;
+}
+.button_f {
+    background-color: #0536FC;
+    color: #FFF;
+    font-size: 16px;
+    font-family: 'Basis Grotesque Pro';
+    line-height: 24px;
+    letter-spacing: -0.48px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 18px 35px 18.25px;
+    background-color: #0536FC;
+    width: 213px;
+    height: 55px;
+    margin: 45px 15px;
+}
+.h1_s {
+    color: #000;
+    font-size: 38px;
+    font-family: 'Basis Grotesque Pro';
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: -1.14px;
+    text-transform: uppercase;
+    margin: 15px 15px 0px 15px;
+}
+.button_s {
+    background-color: #0536FC;
+    color: #FFF;
+    font-size: 16px;
+    font-family: 'Basis Grotesque Pro';
+    line-height: 24px;
+    letter-spacing: -0.48px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 17px 35px 17.37px;
+    background-color: #0536FC;
+    width: 213px;
+    height: 55px;
+    margin: 45px 15px;
+}
+#bttn_submit {
+    display: none;
+}
+.bttn {
+    background: #0536FC;
+    width: 213px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8px;
+}
+.bttn_p {
+    color: #FFF;
+    font-family: 'Basis Grotesque Pro';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.48px;
+    text-transform: uppercase;
+}
+.laptop_only_fake_unit  {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+.mobile_only_white {
+    display: none;
+    
+}
+
+
+/* FORM */
+
+input[type="radio"] {
+    margin: 5px 5px 5px 5px;
+}
+input[type="text"] {
+    border-left: transparent;
+    border-right: transparent;
+    border-top: transparent;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+    padding: 5px 0px;
+    width: 478px;
+}
+#fifty_k {
+    display: none;
+}
+#ten_k {
+    display: none;
+}
+#twenty_k {
+    display: none;
+}
+#one_k {
+    display: none;
+}
+#amount {
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    width: 609px;
+    height: 50px;
+    color: #000;
+    font-family: 'Basis Grotesque Pro';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.48px;
+    padding: 0px 0px 0px 35px;
+}
+.amount {
+    width: 160px;
+    height: 50px;
+    background-color: #FFF;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    stroke-width: 3px;
+    transition: 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.money_menu_top {
+    display: flex;
+}
+input:checked + .amount {
+    background-color: #0536FC;
+    color: #ffffff;
+}
+.money_menu_bottom {
+    height: 50px;
+}
+.radio_p {
+    color: #000;
+    font-family: 'Basis Grotesque Pro';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.48px;
+    opacity: 0.6000000238418579;
+    margin: 0px 0px 0px 15px;
+    text-transform: none;
+    text-decoration: none;
+}
+.radio_option {
+    display: flex;
+    margin-right: 30px;
+}
+.type_of_subscription {
+    margin-top: 20px;
+    display: flex;
+}
+.type_of_pay {
+    display: flex;
+}
+.invest_bold_text_special {
+    color: #000;
+    font-family: 'Basis Grotesque Pro';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -0.48px;
+    text-transform: uppercase;
+    margin: 30px 0px 15px 0px;
+}
+.name_and_mail {
+    margin-top: 18px;
+}
+.checkbox_container {
+    display: flex;
+    margin: 8px 0px 8px 0px;
+}
+#data {
+    margin-right: 15px;
+}
+#oferta {
+    margin-right: 15px;
+}
+.checkbox_text {
+    color: #000;
+    font-family: 'Basis Grotesque Pro';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.48px;
+    opacity: 0.6000000238418579;
+    margin: 0px 8px 0px 0px;
+    text-transform: none;
+    text-decoration: none;
+}
+.checkbox_text_a {
+    color: #0536FC;
+    font-family: 'Basis Grotesque Pro';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.48px;
+    opacity: 0.6000000238418579;
+    text-decoration: none;
+}
+.display_flex {
+    display: flex;
+}
+.checkboxes {
+    margin: 22px 0px 40px 0px;
+}
+
+
+/* MEDIA */
+
+@media screen and (max-width: 1024px) {
+
+
+    /* MAIN */
+
+    main {
+        grid-template-rows: 1fr 90px 1fr 1fr 100px;
+    }
+
+
+    /* MENU BLOCKS */
+
+    .left_menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-left: 20px;
+        margin-right: 30px;
+    }
+    .rectangle_vector {
+        display: none;
+    }
+    .t_invest {
+        grid-column: span 2;
+        grid-row: span 1;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+    }
+    .l_invest {
+        grid-column: span 2;
+        grid-row: span 2;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+    }
+    .type_of_pay {
+        display: block;
+    }
+    .money_menu_top {
+        display: block;
+    }
+    #amount {
+        width: 125px;
+        height: 50px;
+    }
+    .type_of_subscription {
+        display: block;
+    }
+    .display_flex {
+        display: block;
+    }
+    input[type="text"] {
+        width: 300px;
+    }
+
+    /* OFTEN CLASSES (FOR FUTURE DEV) */
+
+    .h3 {
+        color: #0536FC;
+        font-size: 16px;
+        font-family: 'Basis Grotesque Pro';
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: -0.48px;
+        text-transform: uppercase;
+        margin: 15px;
+    }
+    .p {
+        color: #000;
+        font-size: 16px;
+        font-family: 'Basis Grotesque Pro';
+        line-height: 24px;
+        letter-spacing: -0.48px;
+        margin: 20px 15px 35px;
+    }
+    .h1_f {
+        color: #000;
+        font-size: 38px;
+        font-family: 'Basis Grotesque Pro';
+        font-weight: 700;
+        line-height: 39px;
+        letter-spacing: -1.71px;
+        text-transform: uppercase;
+        margin: 15px;
+    }
+    .button_f {
+        background-color: #0536FC;
+        color: #FFF;
+        font-size: 16px;
+        font-family: 'Basis Grotesque Pro';
+        line-height: 24px;
+        letter-spacing: -0.48px;
+        text-transform: uppercase;
+        text-decoration: none;
+        padding: 18px 35px 18.25px;
+        background-color: #0536FC;
+        width: 213px;
+        height: 55px;
+        margin: 45px 15px;
+    }
+    .h1_s {
+        color: #000;
+        font-size: 28px;
+        font-family: 'Basis Grotesque Pro';
+        font-weight: 700;
+        line-height: 32px;
+        letter-spacing: -1.14px;
+        text-transform: uppercase;
+        margin: 15px;
+    }
+    .button_s {
+        background-color: #0536FC;
+        color: #FFF;
+        font-size: 16px;
+        font-family: 'Basis Grotesque Pro';
+        line-height: 24px;
+        letter-spacing: -0.48px;
+        text-transform: uppercase;
+        text-decoration: none;
+        padding: 17px 35px 17.37px;
+        background-color: #0536FC;
+        width: 213px;
+        height: 55px;
+        margin: 45px 15px;
+    }
+}
+@media screen and (max-width: 890px) {
+
+
+    /* main ( GRID SETTINGS ) */
+
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 500px 180px 1fr 1fr 1.2fr;
+        /* background-color: rebeccapurple; */
+    }
+
+
+    /* FIRST BLOCKS */
+
+    .t_program {
+        height: 691px;
+        grid-row: span 1;
+    }
+    .desktop_only {
+        display: none;
+    }
+    .right_header {
+        display: none;
+    }
+    .mobile_only {
+        display: block;
+        background-color: #FF8201;
+        grid-column: span 2;
+        grid-row: span 2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .bttns_container {
+        grid-column: span 2;
+        grid-row: span 1;
+        /* display: flex; */
+        display: block;
+    }
+    .form_money {
+        margin-top: 0px;
+    }
+    /* MENU */
+
+    /* .left_menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-left: 20px;
+        margin-right: 30px;
+    } */
+
+
+    /* OFTEN CLASSES (FOR FUTURE DEV) */
+
+    .h3 {
+        color: #0536FC;
+        font-size: 16px;
+        font-family: 'Basis Grotesque Pro';
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: -0.48px;
+        text-transform: uppercase;
+        margin: 15px;
+    }
+    .p {
+        color: #000;
+        font-family: 'Basis Grotesque Pro';
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: -0.48px;
+        margin: 20px 15px 35px;
+    }
+    .h1_f {
+        color: #000;
+        font-size: 38px;
+        font-family: 'Basis Grotesque Pro';
+        font-weight: 700;
+        line-height: 39px;
+        letter-spacing: -1.71px;
+        text-transform: uppercase;
+        margin: 15px;
+    }
+    .laptop_only_fake_unit  {
+        display: none;
+    }
+    .button_f {
+        background-color: #0536FC;
+        color: #FFF;
+        font-size: 16px;
+        font-family: 'Basis Grotesque Pro';
+        line-height: 24px;
+        letter-spacing: -0.48px;
+        text-transform: uppercase;
+        text-decoration: none;
+        padding: 18px 35px 18.25px;
+        background-color: #0536FC;
+        width: 213px;
+        height: 55px;
+        margin: 45px 15px;
+    }
+    .h1_s {
+        color: #000;
+        font-size: 28px;
+        font-family: 'Basis Grotesque Pro';
+        font-weight: 700;
+        line-height: 32px;
+        letter-spacing: -1.14px;
+        text-transform: uppercase;
+        margin: 15px;
+    }
+    .button_s {
+        background-color: #0536FC;
+        color: #FFF;
+        font-size: 16px;
+        font-family: 'Basis Grotesque Pro';
+        line-height: 24px;
+        letter-spacing: -0.48px;
+        text-transform: uppercase;
+        text-decoration: none;
+        padding: 17px 35px 17.37px;
+        background-color: #0536FC;
+        width: 213px;
+        height: 55px;
+        margin: 45px 15px;
+    }
+
+
+    /* PROBLEMS */
+
+    .mobile_only_white {
+        display: block;
+        background-color: #ffffff;
+        grid-column: span 2;
+        grid-row: span 2;
+    }
+}
+@media screen and (max-width: 500px) {
+
+
+    /* MENU */
+
+    .left_menu {
+        display: none;
+    }
+
+
+    /* CONTAINER */
+
+    .txt_container {
+        height: 100%;
+    }
+}
