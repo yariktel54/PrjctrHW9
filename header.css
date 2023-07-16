@@ -141,6 +141,19 @@
     text-decoration: none;
 }
 
+
+
+
+input[type="text"] {
+    border-left: transparent;
+    border-right: transparent;
+    border-top: transparent;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+    padding: 5px 0px;
+    width: 478px;
+}
+
+
 /* MEDIA */
 
 @media screen and (max-width: 1024px) {
